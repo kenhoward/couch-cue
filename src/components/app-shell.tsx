@@ -23,7 +23,7 @@ type NavigationItem = {
 const navigationItems: readonly NavigationItem[] = [
   { href: "/", label: "Home", Icon: HomeIcon },
   { href: "/filter", label: "Filter", Icon: SlidersIcon },
-  { href: "/decide", label: "Decide", Icon: CardDeckIcon },
+  { href: "/decide", label: "Swipe", Icon: CardDeckIcon },
   { href: "/watchlist", label: "Watchlist", Icon: BookmarkIcon },
 ];
 
