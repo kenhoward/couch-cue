@@ -114,3 +114,42 @@ export function CheckCircleIcon(props: IconProps) {
     </IconSvg>
   );
 }
+
+export function CardDeckIcon(props: IconProps) {
+  return (
+    <IconSvg {...props}>
+      <rect x="10" y="5.5" width="10" height="14.5" rx="2.5" />
+      <rect
+        x="4.5"
+        y="3.25"
+        width="11.5"
+        height="17.5"
+        rx="2.5"
+        fill="var(--card-deck-surface, #fff)"
+        transform="rotate(-15 10.25 12)"
+      />
+    </IconSvg>
+  );
+}
+
+export function SearchIcon(props: IconProps) {
+  return (
+    <IconSvg {...props}>
+      <circle cx="10.5" cy="10.5" r="6.5" />
+      <path d="M15.5 15.5L20.5 20.5" />
+    </IconSvg>
+  );
+}
+
+export function AddMovieIcon(props: IconProps) {
+  return (
+    <IconSvg {...props}>
+      <path d="M4 13.5V17C4 18.66 5.34 20 7 20H13C14.66 20 16 18.66 16 17V13.5" />
+      <path d="M16 14.5L20.5 12V18L16 15.5" />
+      <path d="M6 7.5C4.62 7.5 3.5 8.62 3.5 10C3.5 11.38 4.62 12.5 6 12.5H12C13.38 12.5 14.5 11.38 14.5 10C14.5 8.62 13.38 7.5 12 7.5H6Z" />
+      <circle cx="6.5" cy="10" r="1" fill="currentColor" />
+      <circle cx="11.5" cy="10" r="1" fill="currentColor" />
+      <path d="M19 2.5V8.5M16 5.5H22" strokeWidth="2" />
+    </IconSvg>
+  );
+}
